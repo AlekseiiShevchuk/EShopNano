@@ -1,0 +1,216 @@
+#header-main {
+    width: 1400px;
+    height: 700px;
+    background-image: url('img/bg.jpg');
+}
+
+#logo {
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 27px;
+    height: 120px;
+    width: 170px;
+    background-color: #ed1651;
+}
+
+#logo-firstLine {
+    margin-top: 28px;
+    margin-left: 29px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-size: 33px;
+    text-transform: uppercase;
+    font-family: 'Supermolot', serif;
+}
+#logo-secondLine {
+    margin-left: 29px;
+    text-align: center;
+    color: white;
+    font-size: 41px;
+    font-family: 'Supermolot Bold', serif;
+    text-transform: uppercase;
+    line-height: 36px;
+}
+#menu {
+    position: absolute;
+    width: 1000px;
+    height: 60px;
+    margin-top: 27px;
+    margin-left: 285px;
+    background-color: white;
+}
+#menu > ul {
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+#menu > ul > li {
+    font-family: 'Supermolot', serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    list-style: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 0;
+    margin-top: 0;
+    padding-top: 23px;
+    height: 37px;
+    display: inline-block;
+}
+#menu > ul>li:first-child{
+    padding-left: 25px;
+}
+#menu > ul > li:hover {
+    background-color: #021563;
+    color: white;
+}
+
+body {
+    background-color: #e4e0d6;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1400px;
+}
+
+#login-massage {
+    font-family: "Supermolot Light", serif;
+    font-size: 14px;
+    color: #ed1651;
+    position: absolute;
+    left: 830px;
+    top: 24px;
+    border-bottom: dashed 1px #ed1651;
+}
+#register-massage {
+    font-family: "Supermolot Light", serif;
+    font-size: 14px;
+    color: #333333;
+    position: absolute;
+    left: 895px;
+    top: 24px;
+    border-bottom: dashed 1px #333333;
+}
+
+#login-img {
+    position: absolute;
+    left: 810px;
+    top: 24px;
+    height: 16px;
+    width: 16px;
+    background-image: url("img/login.png");
+}
+
+#cart-box {
+    position: absolute;
+    left: 810px;
+    top: 60px;
+    width: 190px;
+    height: 60px;
+    background-color: #021563;
+}
+
+.Cart_Icon {
+    background-image: url("img/cart-icon.png");
+    position: absolute;
+    left: 940px;
+    top: 75px;
+    width: 45px;
+    height: 34px;
+}
+
+#priceInCart {
+    position: absolute;
+    left: 828px;
+    top: 73px;
+    width: 102px;
+    height: 16px;
+    color: white;
+}
+#priceInCartNumbers{
+    font-family: 'Supermolot Bold', serif;
+    font-size: 20px;
+}
+#priceInCartLetters {
+    font-family: 'Supermolot', serif;
+    font-size: 14px;
+}
+
+#itemsInCart{
+    position: absolute;
+    left: 830px;
+    top: 95px;
+    color: #999;
+    font-family: 'Supermolot', serif;
+    font-size: 12px;
+}
+
+#promoItemBox {
+    padding-left: 116px;
+    padding-top: 235px;
+    height: 115px;
+    color: black;
+    font-size: 72px;
+    line-height: 63px;
+    text-transform: uppercase;
+}
+#promoItemFirstLine{
+    font-family: 'Supermolot Bold Italic', serif;
+}
+
+#promoItemSecondLine {
+    font-family: 'Supermolot Light Italic', serif;
+}
+
+#firstBlockOfItems {
+    width: 1170px;
+    height: 726px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    margin-left: 115px;
+    margin-top: -76px;
+}
+
+.itemsNavigate {
+    height: 78px;
+}
+
+.titleOfItemsNavigate {
+    color: #021562;
+    font-family: 'Supermolot', serif;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-left: 31px;
+}
+
+.rightArrow {
+    margin-top: -32px;
+    margin-right: 30px;
+    float: right;
+    width: 13px;
+    height: 17px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAARCAYAAAAG/yacAAAA/klEQVQoU5XTPSvHURjG8c9/sBm9ABuTt2DxkGKRwcYoD3lYKCwoFiVegcGmZJJJbGw2b4GBQRmEdNfv6Of4n1+5t9N1fTvnvu77tPyuJfRiFl+Z9nNs1YR17FTnE0zhsx2YoF2sZYYzTOI9BwM6xELhKReYwFtdD2gcx+gsgNcYw2vS0/P6cI7uAniLEbyEXg+iC6foL4D3GMJTHQpvR9XjTAF8wEAOhXcTW6UZ4SqHIvaIv1Rx02AdWsF+AxA9DeMxQYs4aADuqvSeU3rzVfPt+gvPDUbzOR0hwHZ1WQ3/z0aEeQ+r/9m95N3Adm3Lp/HRtOVJW0YP5krfIozffzouBy89tQQAAAAASUVORK5CYII=");
+}
+
+.leftArrow {
+    margin-top: -32px;
+    margin-right: 54px;
+    float: right;
+    width: 13px;
+    height: 17px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAARCAYAAAAG/yacAAABUUlEQVQoU5WTsUoDQRCG/9kTC8FCCw3BB7Cz006xEjstrAS77FylWAiKioeoKAiKmBzHJWA6OcRGIaggPoOdlS8gl8bOY0cueMFo9tCtlt35dmb/+YeQszzPU8VisSwiL8x8moWSjYmiyInjuE5Ei18xW8y8n+67QlEU9cZxfElE8z8ePWTmjV9QEAR9AK4AzFqqOOuAarVaf5IkNwCmLIAAWG5DlUplwHGcBoCJHG1WU0FakO/7Q0qpewBjNoCI1rTWxy0hwjAcMcY8ABjNybDJzAdtyYMgeAQwnZNhR2u9+/3+L5l8ACvM/NHR3DAMh40xd7Y/EdGTiCww81tHc6vV6qAxpiEi45ZSX5VSc6VS6blbn24BTFrAdyJa6uoIEbkmohkLeP4v7xHRkdZ63epyz/N6CoXCReZyEdl2XXfP6vKsrHQ8ms1mGUA6TyfZ+Sea+IAilEH7twAAAABJRU5ErkJggg==");
+}
+
+.Item {
+    float: left;
+}
+
+.Item >img:after{
+    position: absolute;
+    z-index: 99;
+    border:0;
+    width: 46px;
+    height: 46px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAChklEQVRoQ9XZPUhbURQA4BMQtFSxIqSSIUKKjVKLBiyaQaEUdNJNpzq2U7vp1sFCO9VNJx11sptuggo6xLQBtSoapYIPDBLRNqSi0hTLOXof/rybvOTd+3LvmV7e73fPD48knseR+UvQLDxw+dGjGxzRh+FXQ1rBGRobRBv4TbQ28LtoLeBWaOXhPLTS8GxoZeG50Fx4e2UVfG1ohv2LM2hdWYbtlnZ6RbWuRCD+4mqbxfRxEprKK6C29AHULC/cOvba64PhQBBGEgZ8Nn7aes3ZQXPh73x++OB/Qg/q3VqlRaydpmFwLw6zz1tgMfULEIyxmDqBb6Ewbd+Fj9U9g55qLwzsxWEymcgJt4vmwr8EgtDv9dGDMFvvfX6CzhwnYfxp470MYkUelZRA8PsSRENh2sYFj9c1mvtT/zJZ4fmgufCphmboqKyC35mrhyHk03WpWSVwP+4bTRgQDbVRq+BndnwimaDFY3X6tlaForlwhGCs/UlTqTHe7GxAd7WXPmMV9s/PqE2Mi3MTjgv9cZo2F40LxutmTo648HwzzW5k+co/bHtJgzlyYNBwYXSuxwBbqOlhBWUWkanMX0KxCrHzcA4w8Jz62JJwtGXG/aVlNGzY0whkg3ezf5kEB7ZrPWbC8Zq3u5tmBbBdcKCtotBMZ814zvF3eIJTNLfHHbqED6Jlxdz8IiEi0663iki0a60iGu0KXAZaOlwWWipcJloaXDZaCtwNtHC4W2ihcDfRwuBuo4XAi4F2DC8W2hG8mOiC4cVGFwRXAZ03XBV0XnCV0LbhqqFtwVVE54Sris4KVxnNhauOtoTrgL4H1wV9C64T2oTrhiZ4TWRuCP8bl/l7oYx7/wdi/c1abm4JLwAAAABJRU5ErkJggg==");
+}
