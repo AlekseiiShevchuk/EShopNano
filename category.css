@@ -1,0 +1,48 @@
+#header-category {
+    width: 1170px;
+}
+
+#categoryBox {
+    margin-left: 116px;
+    padding-top: 199px;
+    color: black;
+    font-family: 'Supermolot Thin Italic', serif;
+    font-size: 72px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+#categoryViewCount {
+    display: block;
+    margin-top: -10px;
+    color: #999;
+    font-family: 'Supermolot Light', serif;
+    font-size: 14px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+#categoryPagination {
+    font-family: 'Supermolot', serif;
+    width: 1170px;
+    margin-left: 115px;
+    height: 76px;
+    background-color: white;
+    text-align: right;
+    color: #333;
+    font-size: 14px;
+    display: inline-block;
+}
+
+#categoryPagination > a {
+    font-family: "Supermolot Italic", serif;
+    padding: 9px 12px 10px;
+    background-color: #e9e9e9;
+    margin-left: 8px;
+    margin-top: 24px;
+    display: inline-block;
+}
+#categoryPagination > a:hover {
+    background-color: #ed1651;
+    color: white;
+}
