@@ -66,7 +66,25 @@
     width: 877px;
     height: 324px;
 }
-
+#firstPromoBlock > span:first-child {
+    display: block;
+    margin-left: 44px;
+    margin-top: 82px;
+    color: black;
+    font-family: "Supermolot Italic", serif;
+    font-size: 38px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+#firstPromoBlock > span:last-child {
+    display: block;
+    margin-top: -10px;
+    margin-left: 44px;
+    color: black;
+    font-family: 'Supermolot Light', serif;
+    font-size: 14px;
+    line-height: 24px;
+}
 #secondPromoBlock {
     float: right;
     background-image: url("img/secondPromoBlockBg.jpg");
@@ -74,6 +92,46 @@
     height: 650px;
 }
 
+#secondPromoBlock > div {
+    margin-left: 51px;
+    margin-top: 55px;
+}
+
+#secondPromoBlock > div > h1{
+    color: black;
+    font-family: "Supermolot Bold Italic", serif;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+#secondPromoBlock > div > h2{
+    width: 280px;
+    color: #555;
+    font-family: 'Supermolot', serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+#secondPromoBlock > div > h3{
+    color: #ed1651;
+    font-family: 'Supermolot Bold Italic', serif;
+    font-size: 36px;
+}
+#secondPromoBlock > div > h3 > span {
+    font-size: 30px;
+}
+#secondPromoBlock > div > h4{
+    width: 167px;
+    height: 45px;
+    border: 3px solid #ed1651;
+    color: black;
+    font-family: 'Supermolot Italic', serif;
+    font-size: 18px;
+}
+#secondPromoBlock > div > h4 > span {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
 #blockOfItemsInCategoryInside01 {
 height: 975px;
 }
