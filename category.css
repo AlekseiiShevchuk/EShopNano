@@ -138,3 +138,362 @@ height: 975px;
 #blockOfItemsInCategoryInside02 {
     height: 650px;
 }
+
+#backToCategory > a {
+    display: block;
+    color: #ed1651;
+    font-family: 'Supermolot', serif;
+    font-size: 14px;
+    line-height: 60px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.productBox {
+    margin-left: 115px;
+    width: 1170px;
+    height: 578px;
+    background-color: white;
+}
+
+#productBoxGallery {
+    float: left;
+    width: 470px;
+    height: 578px;
+    background-color: antiquewhite;
+}
+
+#productBoxNameAndDescription {
+    float: left;
+    width: 430px;
+    height: 578px;
+}
+
+#productBoxNameAndDescription > h1 {
+    margin-top: 35px;
+    margin-left: 30px;
+    display: block;
+    width: 370px;
+    height: 36px;
+    border-bottom: solid #ed1651 3px;
+    color: black;
+    font-family: 'Supermolot Light Italic', serif;
+    font-size: 36px;
+    line-height: 14px;
+}
+
+#productBoxPriceAndBy {
+    float: left;
+    width: 270px;
+    height: 578px;
+}
+
+#productBoxPriceAndBy > div:first-child {
+    width: 219px;
+    height: 185px;
+    border: 1px solid #dbdbdb;
+    margin-top: 39px;
+    margin-right: 49px;
+}
+
+#prises {
+    text-align: center;
+    width: 219px;
+    height: 116px;
+    border-bottom: 1px solid #dbdbdb;
+}
+#prises > span:first-child {
+    opacity: 0.5;
+    color: #999;
+    font-family: 'Supermolot Light Italic', serif;
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+#buy {
+    width: 219px;
+    height: 68px;
+    background-image: url("data:image/png;base64,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");
+}
+#prises > span:last-child {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAA0ElEQVQoU5XSQU6CMRCG4YcEboDhMIJLOQGJuhYXagJHkURdiGsw8QSyRM5CTPQEsoAMaZP6RwG7ajvfOzPtfDU/Vxs36OAIn3jHAxZZWkubOka4riQpj48YYpWhMS53ADn0jH5Ax2XpA8B2QBOc7xDPEJ28Js1LQB9o/QEFEAkjcTdplgGtC6AXPeMUb7ioACH9rlbKwkH6zWlKUDayrRSBs+I2WrrC0y9AyLZvioHGAA9dnTyn++SEfWA44zZDDdz91xG5QvbeCZr4wrzqvQ0y5imWu2vqHQAAAABJRU5ErkJggg==");
+    width: 13px;
+    height: 13px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#price {
+    color: #ed1651;
+    font-family: 'Supermolot Bold', serif;
+    font-size: 26px;
+}
+.cartName {
+    margin-left: 120px;
+    padding-top: 200px;
+    width: 1170px;
+    height: 52px;
+    color: black;
+    font-family: 'Supermolot Light Italic', serif;
+    font-size: 72px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.cart {
+    width: 1170px;
+    margin-left: 115px;
+    background-color: white;
+    margin-top: 26px;
+}
+.cartHeader {
+    height: 77px;
+    border-bottom: 1px solid #f6f6f6;
+    color: #999;
+    font-family: 'Supermolot Light', serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+.cartHeader > span {
+    display: block;
+    padding-top: 25px;
+    margin-left: 30px;
+}
+
+.itemInCart {
+    float: left;
+    border-bottom: 1px solid #f6f6f6;
+    height: 138px;
+}
+.itemInCartCol_1 {
+    float: left;
+}
+.itemInCartCol_1 > img {
+    height: 138px;
+    width: 170px;
+}
+
+.itemInCartCol_2 {
+    width: 306px;
+    float: left;
+    color: #555;
+    font-family: 'Supermolot Light', serif;
+    font-size: 18px;
+}
+.itemInCartCol_2 > span {
+    margin-left: 31px;
+    margin-top: 52px;
+    display: block;
+}
+
+.itemInCartCol_3 {
+    float: left;
+    color: #ed1651;
+    font-family: 'Supermolot Light', serif;
+    font-size: 14px;
+}
+
+.itemInCartCol_3 > span {
+    margin-top: 52px;
+    display: block;
+}
+
+.itemInCartCol_4 {
+    float: left;
+    margin-top: 52px;
+    width: 135px;
+    text-align: right;
+    color: #5d5d5d;
+    font-family: 'Supermolot Light Italic', serif;
+
+}
+.itemInCartCol_4 > span:first-child {
+    font-size: 18px;
+}
+.itemInCartCol_4 > span:last-child {
+    font-size: 15px;
+}
+
+.itemInCartCol_5 {
+    float: left;
+    margin-left: 57px;
+    margin-top: 40px;
+    width: 140px;
+    height: 47px;
+    background-color: #e9e9e9;
+    color: #999;
+    font-family: 'Supermolot Bold', serif;
+    font-size: 18px;
+}
+.itemInCartCol_5 > * {
+    height: 35px;
+    float: left;
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+}
+.itemInCartCol_5 > div {
+    color: black;
+    font-size: 16px;
+    border-left: solid 1px #dadada;
+    border-right: solid 1px #dadada;
+    margin-left: 15px;
+    text-align: center;
+    width: 56px;
+}
+
+.itemInCartCol_5 > span:first-child {
+    padding-left: 16px;
+}
+
+.itemInCartCol_5 > span:last-child {
+    padding-left: 15px;
+}
+
+.itemInCartCol_6 {
+    margin-top: 52px;
+    float: left;
+    width: 154px;
+    text-align: right;
+    color: black;
+    font-family: 'Supermolot Bold Italic', serif;
+    font-size: 18px;
+}
+.itemInCartCol_6 > span:last-child {
+    font-size: 15px;
+}
+
+.cartFooter {
+    width: 1170px;
+    height: 162px;
+}
+
+.CartFooterPrice {
+    width: 292px;
+    float: left;
+    margin-left: 832px;
+    color: black;
+    font-family: 'Supermolot Bold Italic', serif;
+    font-size: 24px;
+    line-height: 48px;
+}
+.cartFooterPrice > span:last-child {
+    font-size: 30px;
+    text-align: right;
+}
+.itemsInCart {
+    float: left;
+    margin-bottom: 1px;
+    width: 1170px;
+
+}
+#backToShopping {
+    float: left;
+    width: 190px;
+    height: 44px;
+    margin-left: 31px;
+    margin-top: 55px;
+    margin-bottom: 35px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAL4AAAAsCAYAAADb2gLVAAAEzUlEQVR4Xu2bjU3kQAxGZ0uAEqAEKAFKgBKgBCgBSoASoAQoAUqAEqAETi+SV8bnZBL2llndfJGQlkw2tj8/e364W5VSvoouKdCZAiuB31nGFe6ggMAXCF0qIPC7TLuCFvhioEsFBH6XaVfQAl8MdKmAwO8y7Qpa4IuBLhUQ+F2mXUELfDHQpQICv8u0K2iBLwa6VEDgd5l2BS3wxUCXCgj8LtOuoAW+GOhSAYHfZdoV9FbA//r6+z91vb+/l8vLy/L8/CzVpUBzBbYGPpDf39+vA7y7uytnZ2dlf3+/edByQAr8GvgXFxcF+FcrTJZyc3NTrq6u1hn4/PwcZoTHx8dycnIyPMsswWcuP87vzCqnp6ffZhC79/DwUG5vb4cfu3jP09PTYD+bkXgO2xSrPZfhQfHi297e3noYPw8PD4fCjmM8FP3MfLJ7aMJP1iDG/Oa7Y7oyhg7X19eDiaib6YL/b29v5fz8fNAh86dm32ucfd/Gva74ZXlC04+PjyHv+OMv7jNucW5aur8GPqADPwk9OjoqLy8v34Dw41YkPmHAwDMWOEmIs4rdOzg4WNsygSgGhANCu2Ixcj+7FxMQi8rGSU4cy/wcs49/wEfxGajedvYu72+mq8F2fHxcXl9fB/C9bhQ5dhlHI7Tjs13kie/xnZr9qF0tnuibLwzzFz9oKPjGBT80wU2vrYGfOWaC14CrjVvnGgOffQQA+fFa0qaKoQafjU8Vo1/2jdmybk+3y5Jbi2GsaP33/OdYKPY79um6FAE62oy11H4tnphH/Ke5UWjEz+zDRXHiD+Njs+fSQtga+BFKWwZQybaU8dOWT9qm4AOZ7/DWMeI0OWXHC+mXWVMdfNOOn32/VnQ13SJc3n/rogYYz/oOD7i835YdS8GvxRN9A3rYIH8sGenuNmvgA74xE2ZNZGfB90HymcCyCzjngj81q/i1K4Jy+QTz+xw7POeXWVPgj63xYxOIHd/HMTWVLwUvm4niOj2u6a3r4gegMXv6/UGMJSu8sXjs2Zg3e6cvRCsawCeXNMzoz1LY/fO/1vEz8Mc2KnOAnLOsMKEAN5si59iJBTIFfuyYsaPFREX7TOlcfh+yzY5PQ6BYgcovrQw6xm3ZMxbL1IwT40E7v5mN7/Rgm2+Ab10+m6F+Cv+vgW/LDYQkGIL0GxgfQAbkks2tTYX2HpKanZLMBd/bnpq+SQzrZA/Sks0ta2p0Gds81zr+Tza32EMfX2wWL2ttv9Gt2Y96xngi+GbHOj7aGuS2v4ALmwVtKeR92jnwM4d8tcfjTJ63Y6xsSlxynOn/SIbY/nTI+5Udv2VHbt721JElHS4Wc3bsaj5k9q1BZEue7F3xHZmuU8eZBphf8ti97PAgzpzefi0e29vZUTCFxWf7w2Z21Ir2PGczL/H9i78FbaXj/7QK49p30zNbP8tQVLrmKTDnNGbem3b3qZ0EP+scSyW0TVzcvC19T0/PW6e3o8T/+Z+X7CT4PcGmWNsoIPDb6C6rjRUQ+I0TIPNtFBD4bXSX1cYKCPzGCZD5NgoI/Da6y2pjBQR+4wTIfBsFBH4b3WW1sQICv3ECZL6NAgK/je6y2lgBgd84ATLfRgGB30Z3WW2sgMBvnACZb6OAwG+ju6w2VuAPxGL0PcSb4O0AAAAASUVORK5CYII=");
+}
+
+#buyFromCart {
+    float: left;
+    margin-left: 608px;
+    margin-top: 50px;
+    width: 292px;
+    height: 49px;
+    background-image: url("data:image/png;base64,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");
+}
+
+.checkout {
+    background-color: white;
+    width: 1170px;
+    margin-left: 115px;
+    margin-top: 25px;
+}
+
+.accordionMain {
+    width: 1170px;
+    height: 78px;
+    font-family: 'Supermolot Bold', serif;
+    font-size: 24px;
+    color: white;
+    background-color: #222429;
+}
+.accordionMain > span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 24px;
+}
+.accordionMain > span:first-child {
+    margin-left: 30px;
+    color: #ed1651;
+}
+.accordionMainBox > div > * {
+    margin-left: 30px;
+}
+.accordionMainBox > div > h3{
+    margin-top: 0;
+    margin-bottom: 3px;
+    color: #999;
+    font-family: 'Supermolot Light', serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+.accordionMainBox > div > h2 {
+    margin-top: 31px;
+    color: #ed1651;
+    font-family: 'Supermolot Bold', serif;
+    font-size: 18px;
+    line-height: 18px;
+}
+.accordionMainBox > div {
+float: left;
+}
+
+.accordionMainBoxLeft {
+    margin-bottom: 30px;
+    width: 500px;
+
+}
+
+.accordionMainBox > div > input {
+    margin-bottom: 18px;
+    margin-top: 0;
+    padding-left: 17px;
+    width: 374px;
+    height: 47px;
+    background-color: #e9e9e9;
+    color: black;
+    font-family: 'Supermolot Light', serif;
+    font-size: 16px;
+    border: 0px;
+}
+.accordionMainBox > div > button {
+    background-color: #ed1651;
+    border: 0;
+    color: white;
+    font-family: 'Supermolot Light', serif;
+    font-size: 18px;
+    padding: 14px;
+}
+
+.accordionSecondary {
+    width: 1170px;
+    height: 78px;
+    font-family: 'Supermolot Bold', serif;
+    font-size: 24px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.accordionSecondary > span:first-child {
+    margin-left: 30px;
+    color: #ed1651;
+}
+
+.accordionSecondary > span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 24px;
+}

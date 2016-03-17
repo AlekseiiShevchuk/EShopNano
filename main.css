@@ -1,3 +1,11 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.clear {
+    clear:both;
+}
 #header-main {
     width: 1400px;
     height: 700px;
@@ -181,7 +189,7 @@ body {
     color: #021562;
     font-family: 'Supermolot', serif;
     font-size: 24px;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 31px;
     margin-bottom: 0;
 }
