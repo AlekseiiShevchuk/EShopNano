@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart--Nano E-Shop by Olexii</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="fontsFrontend.css">
+    <link rel="stylesheet" href="category.css">
+    <script src="index.js"></script>
+</head>
+<body>
+<header id="header-category">
+    <div id="logo">
+        <span id="logo-firstLine">SUPER</span>
+        <br>
+        <span id="logo-secondLine">SHOP</span>
+    </div>
+
+    <div id="menu">
+        <ul>
+            <li>Категория 1</li>
+            <li>Категория 2</li>
+            <li>Категория 3</li>
+            <li>Категория 4</li>
+            <li>Категория 5</li>
+            <li>Категория 6</li>
+        </ul>
+        <div id="login-img"></div>
+        <div id="login-massage">Войти</div>
+        <div id="register-massage">Регистрация</div>
+        <div id="cart-box"></div>
+        <div class="Cart_Icon"></div>
+        <div id="priceInCart">
+            <span id="priceInCartNumbers">46 945</span>
+            <span id="priceInCartLetters"> руб.</span>
+        </div>
+        <div id="itemsInCart">2 предмета</div>
+    </div>
+</header>
+<div class="clear"></div>
+<div class="cartName">Оформление заказа</div>
+
+
+<main class="checkout">
+    <div class="accordionSecondary">
+        <span>1.</span> <span>Контактная информация</span>
+    </div>
+    <div class="accordionMain">
+        <span>2.</span> <span>Информация о доставке</span>
+    </div>
+
+    <div class="accordionMainBox">
+
+        <div class="checkoutPage2Div1">
+
+            <h2>Адрес доставки</h2>
+            <h3>Город:</h3>
+            <input type="text" value="Москва">
+            <h3>Улица:</h3>
+            <input type="text">
+
+            <div style="width: 38%; float: left">
+                <h3>Дом:</h3>
+                <input class="inputHalfWidth" style="float:left;" type="text">
+            </div>
+
+            <div style="width: 38%; float: right">
+                <h3>Квартира:</h3>
+                <input class="inputHalfWidth" style="float:left" type="text">
+            </div><br>
+            <button>Продолжить</button>
+            <div class="clear"></div>
+        </div>
+        <div class="checkoutPage2Div2">
+            <h2>Способ доставки</h2><br>
+
+            <input class="r_button" type="radio" name="name" id="r_1" />
+            <label for="r_1">Курьерская доставка с оплатой при получении</label>
+            <input class="r_button" type="radio" name="name" id="r_2" />
+            <label for="r_2">Почта России с наложенным платежом</label>
+            <input class="r_button" type="radio" name="name" id="r_3" />
+            <label for="r_3">Доставка через терминалы QIWI Post</label>
+
+            <div class="clear"></div>
+        </div>
+        <div class="checkoutPage2Div3">
+            <h2>Комментарий к заказу</h2><br>
+            <h3>Введите ваш комментарий:</h3>
+            <textarea rows="10" cols="33" id="checkoutCommentTextArea" name="content"
+                      placeholder="Введите здесь комментарий. Будьте внимательны и вежливы!"></textarea>
+
+
+        </div>
+
+    </div>
+    <div class="clear"></div>
+
+    <div class="accordionSecondary">
+        <span>3.</span> <span>Подтверждение заказа</span>
+    </div>
+
+    <div class="clear"></div>
+</main>
+
+<div class="clear"></div>
+
+
+<footer>
+    <p>
+        Шаблон для экзаменационного задания.<br>
+        Разработан специально для «Всероссийской Школы Программирования»<br>
+        http://bedev.ru/
+    </p>
+    <a href="#logo">
+        <div id="goUp">
+
+        </div>
+    </a>
+</footer>
+</body>
+</html>

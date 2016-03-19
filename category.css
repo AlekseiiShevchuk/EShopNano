@@ -467,7 +467,7 @@ float: left;
     color: black;
     font-family: 'Supermolot Light', serif;
     font-size: 16px;
-    border: 0px;
+    border: 0;
 }
 .accordionMainBox > div > button {
     background-color: #ed1651;
@@ -496,4 +496,72 @@ float: left;
     display: inline-block;
     vertical-align: middle;
     margin-top: 24px;
+}
+
+.accordionMainBoxRight > a {
+    color: #343434;
+    font-family: 'Supermolot Light', serif;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.checkoutPage2Div1 {
+    margin: 32px 25px 43px 30px;
+    width: 391px;
+    float: left;
+}
+
+.inputHalfWidth {
+    margin-bottom: 18px;
+    margin-top: 0;
+    padding-left: 17px;
+    height: 47px;
+    background-color: #e9e9e9;
+    color: black;
+    font-family: 'Supermolot Light', serif;
+    font-size: 16px;
+    border: 0;
+    width: 160px;
+    display: block;
+    float: left;
+}
+
+.checkoutPage2Div2 {
+    float: left;
+    width: 225px;
+    margin: 32px 25px 43px 30px;
+}
+
+.r_button {
+    display: none;
+}
+
+.r_button + label {
+    cursor: pointer;
+    padding-left: 25px;
+    margin-top: 20px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAA4UlEQVQoU6WT200DQQxFz90agAKghPWKRwVUQATUh0hoACoAojElJL9IIBrgY428YqNVPgjZnS9rPMfjx7UYnIio3H0GXANnwCHwCbwC92a2kNT2iHqjlHIMPAD1MOCW/QZcNU2zzvsOTjAiXiQd/QF2roj4kHSeAfSb6hKwXeDA72Z2Kne/iYi7PcDuqaRblVIegct9YeAp4ezmwQj4PeEYASbyPfnn8TVP6vakOWfl7n7Stu3zfxVWVdWFma022s4AEbHYpW1JswQ32u5HtbVVuSA5/69MTtK8ruv5cKt+AEQmb6JkVhquAAAAAElFTkSuQmCC") no-repeat scroll left center;
+    display: block;
+    color: black;
+    font-family: 'Supermolot Light', serif;
+    font-size: 16px;
+}
+
+.r_button:checked + label {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAABgElEQVQoU6VTQUsCQRh9s4hWx1BX0ghMCDwJFbmVXerQoWMk5U8o6NCpm7dOHaL+gqRduhR1KA9KrpFBJyEwobJitbqmEjMx5my7lhU4p5nvfe/NfG++j8C4WFSS1VAYRFoEWBCAA0AFIFkwuqsp6QRIlAoKERv54sSLd2kPwLBJ0Hy4hIUuaKMzRR5ukJtEFYDzF6KAyrBQhQsQNJ46dQ6CEYG6rTbMO1zw2LpQqlWx/6zhrlb90mXIaUpqjMiZ5BIIYgKZ63Vg2+dHtyTpyVVKsVzI4/C1YhSIEJeaPGLALI96rDakAkH0GIgi+41ShK6yKNVrjRABjomsJrmcnQdW3QNY7/e2LXvjvoith9tPnOGJk5nI3vQOIeLsa0uOlR+xVrwWeL2zm1trTgeCJrPENdy0yW81/+D2js+Prha3Vwp5HLS63dE/82c5z04HiUQy/+0wRtl4eWL6Ru/tpkDir95mlIU5Ue9t/W/MU8UHxA6GFxCSA2NxTUnFjVP1AX6/sTu6QXqSAAAAAElFTkSuQmCC") no-repeat scroll left center;
+}
+
+.checkoutPage2Div3 {
+    margin: 32px 25px 43px 30px;
+    float: left;
+    width: 370px;
+}
+#checkoutCommentTextArea {
+    padding: 17px 0 0 16px;
+    color: black;
+    font-family: 'Supermolot Light', serif;
+    font-size: 16px;
+    resize: none;
+    background-color: #e9e9e9;
+    border: none;
 }
