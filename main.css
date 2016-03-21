@@ -221,10 +221,7 @@ body {
 }
 
 .Item >figure {
-    margin-bottom: -236px;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 -236px;
 }
 .Item >figure>img {
     width: 292px;
