@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart--Nano E-Shop by Olexii</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="fontsFrontend.css">
+    <link rel="stylesheet" href="category.css">
+    <script src="index.js"></script>
+</head>
+<body>
+<header id="header-category">
+    <div id="logo">
+        <span id="logo-firstLine">SUPER</span>
+        <br>
+        <span id="logo-secondLine">SHOP</span>
+    </div>
+
+    <div id="menu">
+        <ul>
+            <li>Категория 1</li>
+            <li>Категория 2</li>
+            <li>Категория 3</li>
+            <li>Категория 4</li>
+            <li>Категория 5</li>
+            <li>Категория 6</li>
+        </ul>
+        <div id="login-img"></div>
+        <div id="login-massage">Войти</div>
+        <div id="register-massage">Регистрация</div>
+        <div id="cart-box"></div>
+        <div class="Cart_Icon"></div>
+        <div id="priceInCart">
+            <span id="priceInCartNumbers">46 945</span>
+            <span id="priceInCartLetters"> руб.</span>
+        </div>
+        <div id="itemsInCart">2 предмета</div>
+    </div>
+</header>
+<div class="clear"></div>
+<div class="cartName">Оформление заказа</div>
+
+
+<main class="checkout">
+    <div class="accordionSecondary">
+        <span>1.</span> <span>Контактная информация</span>
+    </div>
+    <div class="accordionSecondary">
+        <span>2.</span> <span>Информация о доставке</span>
+    </div>
+
+
+    <div class="accordionMain">
+        <span>3.</span> <span>Подтверждение заказа</span>
+    </div>
+
+    <div class="clear"></div>
+    <div class="accordionMainBox">
+        <div><h2>Состав заказа:</h2></div>
+        <div class="clear"></div>
+        <div style="margin-bottom: 20px; padding-bottom: 10px; border-bottom: solid 2px #f6f6f6;">
+            <h3>Товар&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Стоимость&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Количество&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Итого</h3>
+        </div>
+        <div class="clear"></div>
+        <div>
+            <div class="productInCheckout">
+                <span class="name">Название товара</span>
+                <div class="priceInCheckout"><span>4 540</span><span>руб.</span></div>
+                <span class="count">1</span>
+                <div class="priceCount"><span>4 540</span><span>руб.</span></div>
+            </div>
+            <div class="productInCheckout">
+                <span class="name">Название товара</span>
+                <div class="priceInCheckout"><span>4 540</span><span>руб.</span></div>
+                <span class="count">1</span>
+                <div class="priceCount"><span>4 540</span><span>руб.</span></div>
+            </div>
+            <div class="productInCheckout">
+                <span class="name">Название товара</span>
+                <div class="priceInCheckout"><span>4 540</span><span>руб.</span></div>
+                <span class="count">1</span>
+                <div class="priceCount"><span>4 540</span><span>руб.</span></div>
+            </div>
+
+
+        </div>
+        <div class="clear"></div>
+
+        <div class="total"> <h4>Итого:&nbsp;&nbsp;&nbsp;72 640руб.</h4> </div>
+        <div class="clear"></div>
+
+        <div class="leftBottomColumnInDeliveryPart">
+            <h2>Доставка:</h2>
+            <h3>Контактное лицо (ФИО):</h3>
+            <span>Имя заказчика</span>
+            <br>
+            <h3>Контактный телефон:</h3>
+            <span>+7 916 000-00-00</span>
+            <br>
+            <h3>E-mail:</h3>
+            <span>mail@company.ru</span><br><br>
+        </div>
+        <div class="leftBottomColumnInDeliveryPart">
+            <h2>&nbsp;</h2>
+            <h3>Город:</h3>
+            <span>Москва</span>
+            <br>
+            <h3>Улица:</h3>
+            <span>Название улицы</span>
+            <br>
+            <h3>Дом &nbsp;&nbsp;&nbsp;&nbsp; Квартира </h3>
+            <span>10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;150</span><br><br>
+        </div>
+        <div class="leftBottomColumnInDeliveryPart">
+            <h2>&nbsp;</h2>
+            <h3>Способ доставки:</h3>
+            <span>Курьерская доставка с оплатой при получении</span>
+            <br>
+            <h3>Комментарий к заказу:</h3>
+            <span>Текст комментария</span>
+            <br>            
+        </div>
+        <div class="clear"></div>
+        <div>
+            <button style="font-size: 22px;">Подтвердить заказ</button>
+            <br>
+            &nbsp;
+        </div>
+
+    </div>
+    <div class="clear"></div>
+</main>
+
+<div class="clear"></div>
+
+
+<footer>
+    <p>
+        Шаблон для экзаменационного задания.<br>
+        Разработан специально для «Всероссийской Школы Программирования»<br>
+        http://bedev.ru/
+    </p>
+    <a href="#logo">
+        <div id="goUp">
+
+        </div>
+    </a>
+</footer>
+</body>
+</html>
